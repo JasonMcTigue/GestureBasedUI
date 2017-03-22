@@ -78,6 +78,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GestureBasedUIProject.Plugins.csproj">
+      <Project>{3ABB3349-1EB4-F84C-1FB2-7A5C145FA167}</Project>
+      <Name>GestureBasedUIProject.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Bricks.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
