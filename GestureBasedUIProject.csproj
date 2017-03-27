@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Bricks.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\GM.cs" />
+    <Compile Include="Assets\Scripts\KinectManager.cs" />
     <Compile Include="Assets\Scripts\Paddle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
