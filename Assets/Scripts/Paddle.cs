@@ -32,10 +32,11 @@ public class Paddle : MonoBehaviour
 
 	private Vector3 playerPos = new Vector3(0, -9.5f, 0);
 
+   
+
 	void Update()
 	{
 		float xPos = transform.position.x;
-
 		if (KinectManager.instance.IsAvailable)
 		{
 			xPos = KinectManager.instance.PaddlePosition;
