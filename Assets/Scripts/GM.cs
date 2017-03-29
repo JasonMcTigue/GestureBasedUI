@@ -22,6 +22,7 @@ public class GM : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
 	{
+
 		//Need this to add menus and other levels
 		if (instance == null)
 			instance = this;//checks to see if there is a game manager
@@ -34,6 +35,7 @@ public class GM : MonoBehaviour {
 
 	public void Setup()
 	{
+
 		clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;//creates the paddle on the screen. 
 		Instantiate(bricksPrefab, transform.position, Quaternion.identity);//Instantiates the bricks
 	}
