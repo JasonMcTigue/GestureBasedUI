@@ -24,7 +24,7 @@ public class Ball : MonoBehaviour
         }
         else
         {
-            KinectManager.instance.IsFire = false;
+            //KinectManager.instance.IsFire = false;
         }
     }
 }

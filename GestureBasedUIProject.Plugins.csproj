@@ -166,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\KinectAvatar\Mixamo\Shaders\Normal-BumpSpecGloss.shader" />
     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
   </ItemGroup>

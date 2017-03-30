@@ -84,16 +84,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KinectUIModule\Scripts\KinectInputModule.cs" />
+    <Compile Include="Assets\KinectUIModule\Scripts\KinectUI\AbstractKinectUICursor.cs" />
+    <Compile Include="Assets\KinectUIModule\Scripts\KinectUI\KinectUICursor.cs" />
+    <Compile Include="Assets\KinectUIModule\Scripts\KinectUI\KinectUIWaitCursor.cs" />
+    <Compile Include="Assets\KinectUIModule\Scripts\KinectUI\KinectUIWaitOverButton.cs" />
     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\BodySourceManager.cs" />
+    <Compile Include="Assets\Scripts\BodySourceView.cs" />
     <Compile Include="Assets\Scripts\Bricks.cs" />
+    <Compile Include="Assets\Scripts\ButtonTest.cs" />
+    <Compile Include="Assets\Scripts\CaptureScreenShot.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\DragMe.cs" />
     <Compile Include="Assets\Scripts\DragPanel.cs" />
     <Compile Include="Assets\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Scripts\EmojiRotator.cs" />
     <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\FollowMouse.cs" />
     <Compile Include="Assets\Scripts\GM.cs" />
     <Compile Include="Assets\Scripts\KinectManager.cs" />
     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
@@ -109,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\KinectAvatar\Mixamo\Shaders\Normal-BumpSpecGloss.shader" />
     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
   </ItemGroup>
