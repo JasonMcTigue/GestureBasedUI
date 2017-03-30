@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Windows.Kinect
 {
     //
-    // Windows.Kinect.CoordinateMapper
+    //Windows.Kinect.CoordinateMapper
     //
     public sealed partial class CoordinateMapper : Helper.INativeWrapper
 

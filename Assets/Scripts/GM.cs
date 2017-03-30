@@ -12,6 +12,7 @@ public class GM : MonoBehaviour
     public GameObject gameOver;
     public GameObject youWon;
     public GameObject bricksPrefab;
+    public GameObject bricksPrefab2;
     public GameObject paddle;
     public GameObject deathParticles;
 
