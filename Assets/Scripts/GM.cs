@@ -53,12 +53,12 @@ public class GM : MonoBehaviour
         if (lives < 1)
         {
             gameOver.SetActive(true);
-            Time.timeScale = .25f;
-            Invoke("Reset", resetDelay);
+            //Time.timeScale = .25f;
+           // Invoke("Reset", resetDelay);
         }
     }
 
-    void Reset()
+    public void Reset()
     {
         Time.timeScale = 1f;
         Application.LoadLevel(Application.loadedLevel);

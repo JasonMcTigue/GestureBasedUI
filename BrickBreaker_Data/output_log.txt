@@ -21,7 +21,7 @@ Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_D
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.159 seconds
+- Completed reload, in  0.066 seconds
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -29,12 +29,12 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.846913 ms
+UnloadTime: 65.925133 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1c44 -> priority: 1 
+  Thread -> id: 244c -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.714962 ms
+UnloadTime: 78.647705 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 804.
-Total: 0.724938 ms (FindLiveObjects: 0.125234 ms CreateObjectMapping: 0.052938 ms MarkObjects: 0.536098 ms  DeleteObjects: 0.008691 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 814.
+Total: 1.305283 ms (FindLiveObjects: 0.463802 ms CreateObjectMapping: 0.038716 ms MarkObjects: 0.794864 ms  DeleteObjects: 0.006716 ms)
 

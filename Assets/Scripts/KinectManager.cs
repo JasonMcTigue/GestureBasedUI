@@ -11,6 +11,10 @@ public class KinectManager : MonoBehaviour
     private BodyFrameReader _bodyFrameReader;
     private Body[] _bodies = null;
 
+    // public Transform canvas;
+    public Transform canvas;
+
+
     public GameObject kinectAvailableText;
     public Text handXText;
 
@@ -86,17 +90,24 @@ public class KinectManager : MonoBehaviour
 
                     else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Open)
                     {
-
+                        
+                       // gameObject.SetActive(true);
                         Time.timeScale = 0;
+                        PaddlePosition = 0;
+                        canvas.gameObject.SetActive(true);
+                        // PauseScreen();
+
+
                         //_bodyFrameReader.IsPaused = true;
                         //_bodyFrameReader.Dispose();
                         // _bodyFrameReader = null;
 
-                       
+
                     }
 
                     else if (Time.timeScale == 0 && body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
                     {
+                       // canvas.gameObject.SetActive(false);
                         Time.timeScale = 1;
                         Update();
                     }
@@ -121,8 +132,23 @@ public class KinectManager : MonoBehaviour
         }
     }
 
+
+    void PauseScreen() {
+
+        if (canvas.gameObject.activeInHierarchy == false)
+        {
+            canvas.gameObject.SetActive(true);
+            Time.timeScale = 0;
+
+       }
+        else
+        {
+            canvas.gameObject.SetActive(false);
+            Time.timeScale = 1;
+
+        }
     
-  
+    }
     
     
     static float RescalingToRangesB(float scaleAStart, float scaleAEnd, float scaleBStart, float scaleBEnd, float valueA)
