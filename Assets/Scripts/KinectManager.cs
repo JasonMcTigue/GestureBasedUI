@@ -92,10 +92,11 @@ public class KinectManager : MonoBehaviour
                     {
                         
                        // gameObject.SetActive(true);
-                        Time.timeScale = 0;
+                       //Time.timeScale = 0;
                         PaddlePosition = 0;
                         canvas.gameObject.SetActive(true);
                         // PauseScreen();
+                        Time.timeScale = 0;
 
 
                         //_bodyFrameReader.IsPaused = true;
