@@ -83,32 +83,30 @@ public class KinectManager : MonoBehaviour
                     {
                         IsFire = true;
                     }
-                    else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Open) {
-                        _bodyFrameReader.IsPaused = true;
-                        //   _bodyFrameReader.Dispose();
-                        _bodyFrameReader = null;
 
-                        if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
-                        {
-                            _bodyFrameReader.IsPaused = false;
-                            //   _bodyFrameReader.Dispose();
-                            //_bodyFrameReader = null;
-                            Update();
-
-                        }
-
-                    }
-
-                    else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
+                    else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Open)
                     {
-                        _bodyFrameReader.IsPaused = false;
-                        //   _bodyFrameReader.Dispose();
-                        //_bodyFrameReader = null;
-                        Update();
 
+                        Time.timeScale = 0;
+                        //_bodyFrameReader.IsPaused = true;
+                        //_bodyFrameReader.Dispose();
+                        // _bodyFrameReader = null;
+
+                       
                     }
 
+                    else if (Time.timeScale == 0 && body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
+                    {
+                        Time.timeScale = 1;
+                        Update();
+                    }
 
+                    /*  if (_bodyFrameReader.IsPaused == true || body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed) {
+
+                          PaddlePosition = RescalingToRangesB(-1, 1, -8, 8, body.Lean.X);
+                          handXText.text = PaddlePosition.ToString();
+                      }
+                      */
 
                     else
                     {
@@ -136,12 +134,12 @@ public class KinectManager : MonoBehaviour
     {
         if (_bodyFrameReader != null)
         {
-            _bodyFrameReader.IsPaused = true;
+            //_bodyFrameReader.IsPaused = true;
          //   _bodyFrameReader.Dispose();
-            _bodyFrameReader = null;
+            //_bodyFrameReader = null;
           
         }
-
+        
 
     
 

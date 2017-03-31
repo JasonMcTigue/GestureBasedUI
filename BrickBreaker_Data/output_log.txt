@@ -21,7 +21,7 @@ Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_D
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.244 seconds
+- Completed reload, in  0.159 seconds
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -29,18 +29,12 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.866962 ms
+UnloadTime: 1.846913 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2b50 -> priority: 1 
+  Thread -> id: 1c44 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.352098 ms
+UnloadTime: 5.714962 ms
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 804.
-Total: 0.672790 ms (FindLiveObjects: 0.065580 ms CreateObjectMapping: 0.046222 ms MarkObjects: 0.549135 ms  DeleteObjects: 0.011061 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.751012 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 802.
-Total: 1.473185 ms (FindLiveObjects: 0.150123 ms CreateObjectMapping: 0.086913 ms MarkObjects: 1.135012 ms  DeleteObjects: 0.099160 ms)
+Total: 0.724938 ms (FindLiveObjects: 0.125234 ms CreateObjectMapping: 0.052938 ms MarkObjects: 0.536098 ms  DeleteObjects: 0.008691 ms)
 
