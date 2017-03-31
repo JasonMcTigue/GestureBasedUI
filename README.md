@@ -22,15 +22,15 @@ You will need to have the following to play:
 
 
 
-- Run the brickbreaker.exe file and then press play.
+Run the brickbreaker.exe file and then press play.
 
-- Stand infront of the screen until the kinect picks up your body. You will notice the skeleton appear in the backgroud.
+Stand infront of the screen until the kinect picks up your body. You will notice the skeleton appear in the backgroud.
 
-- Press start to begin the game.
+Press start to begin the game.
 
-- Lean left or right to move the paddle and then raise your arm while doing the lasso gesture to fire the ball.
+Lean left or right to move the paddle and then raise your arm while doing the lasso gesture to fire the ball.
 
-- To pause the game open the palm of your right hand.
+To pause the game open the palm of your right hand.
  
 ####  **Rules**
 
