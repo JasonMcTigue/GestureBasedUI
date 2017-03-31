@@ -21,7 +21,7 @@ Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_D
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.066 seconds
+- Completed reload, in  0.061 seconds
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jason\Documents\GestureBasedUIProject\BrickBreaker_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -29,12 +29,18 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 65.925133 ms
+UnloadTime: 42.098171 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 244c -> priority: 1 
+  Thread -> id: 1620 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 78.647705 ms
+UnloadTime: 7.681185 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 814.
-Total: 1.305283 ms (FindLiveObjects: 0.463802 ms CreateObjectMapping: 0.038716 ms MarkObjects: 0.794864 ms  DeleteObjects: 0.006716 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 16.630123 ms (FindLiveObjects: 12.028839 ms CreateObjectMapping: 0.026469 ms MarkObjects: 4.567308 ms  DeleteObjects: 0.006716 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.686222 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 838.
+Total: 1.093135 ms (FindLiveObjects: 0.056098 ms CreateObjectMapping: 0.043851 ms MarkObjects: 0.968691 ms  DeleteObjects: 0.023703 ms)
 
