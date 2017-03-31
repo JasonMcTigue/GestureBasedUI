@@ -18,6 +18,11 @@ public class KinectManager : MonoBehaviour
     public float PaddlePosition;
     public bool IsFire;
 
+
+
+   // public static GM instance = null;
+
+
     public static KinectManager instance = null;
 
     public Body[] GetBodies()
@@ -78,6 +83,33 @@ public class KinectManager : MonoBehaviour
                     {
                         IsFire = true;
                     }
+                    else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Open) {
+                        _bodyFrameReader.IsPaused = true;
+                        //   _bodyFrameReader.Dispose();
+                        _bodyFrameReader = null;
+
+                        if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
+                        {
+                            _bodyFrameReader.IsPaused = false;
+                            //   _bodyFrameReader.Dispose();
+                            //_bodyFrameReader = null;
+                            Update();
+
+                        }
+
+                    }
+
+                    else if (body.HandRightConfidence == TrackingConfidence.High && body.HandRightState == HandState.Closed)
+                    {
+                        _bodyFrameReader.IsPaused = false;
+                        //   _bodyFrameReader.Dispose();
+                        //_bodyFrameReader = null;
+                        Update();
+
+                    }
+
+
+
                     else
                     {
                         PaddlePosition = RescalingToRangesB(-1, 1, -8, 8, body.Lean.X);
@@ -91,6 +123,10 @@ public class KinectManager : MonoBehaviour
         }
     }
 
+    
+  
+    
+    
     static float RescalingToRangesB(float scaleAStart, float scaleAEnd, float scaleBStart, float scaleBEnd, float valueA)
     {
         return (((valueA - scaleAStart) * (scaleBEnd - scaleBStart)) / (scaleAEnd - scaleAStart)) + scaleBStart;
@@ -101,19 +137,23 @@ public class KinectManager : MonoBehaviour
         if (_bodyFrameReader != null)
         {
             _bodyFrameReader.IsPaused = true;
-            _bodyFrameReader.Dispose();
+         //   _bodyFrameReader.Dispose();
             _bodyFrameReader = null;
+          
         }
 
-        if (_sensor != null)
-        {
-            if (_sensor.IsOpen)
-            {
-                _sensor.Close();
-            }
 
-            _sensor = null;
-        }
+    
+
+       //if (_sensor != null)
+      //  {
+      //      if (_sensor.IsOpen)
+       //     {
+       //         _sensor.Close();
+      //      }
+
+      //      _sensor = null;
+     //   }
     }
 }
 

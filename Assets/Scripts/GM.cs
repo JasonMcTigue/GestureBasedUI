@@ -16,6 +16,10 @@ public class GM : MonoBehaviour
     public GameObject paddle;
     public GameObject deathParticles;
 
+    public Transform canvas;
+
+    //public static GM instance = null;
+
     public static GM instance = null;
 
     private GameObject clonePaddle;
